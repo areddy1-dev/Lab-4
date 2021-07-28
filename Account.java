@@ -19,7 +19,7 @@ public class Account {
 		 new Account();
 		 new Account();
 			
-			System.out.println("Account created: " + Account.getNumAccounts());
+			System.out.println("Number of Accounts created: " + Account.getNumAccounts());
 		
 		}
 	
