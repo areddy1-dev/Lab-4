@@ -18,7 +18,7 @@ public class Numbers {
 			 globalMin = minDiff;
 			nextLargest = array[j];
 		   }
-	     }
+	       }
 	   }
 		 if (globalMin == Integer.MAX_VALUE) {
 			System.out.println(array[i] + ": " + Integer.MAX_VALUE);
@@ -32,6 +32,6 @@ public class Numbers {
 	    int[] array = { 78, 22, 56, 99, 12, 14, 17, 15, 1, 144, 37, 23, 47, 88, 3, 19 };
 		Numbers num = new Numbers();
 		num.nextLargest(array);
-		}
+	}
 
    }
